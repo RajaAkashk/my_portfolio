@@ -16,16 +16,20 @@
   </head>
   <body>
     <!-- ===== Hero Section ===== -->
-    <section class="bg-black text-white text-center py-4">
+    <section class="bg-black text-white text-center py-5">
       <div class="container py-5">
-        <h1>Raja Akash Kumar</h1>
-        <p>Full Stack Developer | Passionate about Building the Web</p>
-        <a
-          href="https://github.com/RajaAkashk"
-          target="_blank"
-          class="btn btn-outline-secondary text-white"
-          >View My Work</a
-        >
+        <h1 class="display-4 fw-bold">Hi, I'm Raja Akash Kumar</h1>
+        <p class="lead mb-4">
+          I’m a Full Stack Developer with a passion for building scalable web
+          applications and delightful user experiences. I love bringing ideas to
+          life using code.
+        </p>
+        <div class="d-flex justify-content-center gap-3">
+          <a href="#projects" class="btn btn-outline-light">View Projects</a>
+          <a href="./file/My Resume.pdf" class="btn btn-secondary" download
+            >My Resume</a
+          >
+        </div>
       </div>
     </section>
 
@@ -80,7 +84,7 @@
               <img
                 src="img/p3.png"
                 class="card-img-top"
-                alt="Trend Hive Screenshot"
+                alt="Recipe Organiser Screenshot"
               />
               <div class="card-body">
                 <h5 class="card-title">Recipe Organiser</h5>
@@ -120,7 +124,7 @@
               <img
                 src="img/p2.png"
                 class="card-img-top"
-                alt="Trend Hive Screenshot"
+                alt="Workasana Screenshot"
               />
               <div class="card-body">
                 <h5 class="card-title">Workasana</h5>
@@ -162,7 +166,7 @@
               <img
                 src="img/p4.png"
                 class="card-img-top"
-                alt="Trend Hive Screenshot"
+                alt="Meetup App Screenshot"
               />
               <div class="card-body">
                 <h5 class="card-title">Meetup App</h5>
@@ -178,7 +182,7 @@
                     (Online/Offline/Both), comprehensive event pages with
                     session details, speakers, pricing, venue info, and
                     additional attendee guidelines. Users can also filter events
-                    based on tags.
+                    based on name.
                   </span>
                   <button class="btn btn-link p-0 toggle-btn">Read more</button>
                 </p>
@@ -204,8 +208,55 @@
       </div>
     </section>
 
+    <!-- ===== Blog Section ===== -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5">My Blogs</h2>
+        <div class="row justify-content-center g-4">
+          <div class="col-md-5">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Top 5 Mistakes I Made as a Beginner Developer
+                </h5>
+                <p class="card-text">
+                  If you're starting out, avoid these beginner mistakes I made
+                  and fast-track your learning.
+                </p>
+                <a
+                  href="https://medium.com/@rajaakashk96/top-5-mistakes-i-made-as-a-beginner-developer-b3f8a28b21ae"
+                  target="_blank"
+                  class="btn btn-secondary"
+                  >Read Blog</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">
+                  How I Built My First MERN Stack Project
+                </h5>
+                <p class="card-text">
+                  Sharing my journey of creating Trend Hive, lessons learned,
+                  and best practices using MongoDB, Express, React, and Node.
+                </p>
+                <a
+                  href="https://medium.com/@rajaakashk96/how-i-built-my-first-mern-stack-project-creating-a-full-featured-e-commerce-app-19713d1b73d2"
+                  target="_blank"
+                  class="btn btn-secondary"
+                  >Read Blog</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ===== Technologies Section ===== -->
-    <section class="bg-light py-5">
+    <section class="py-5">
       <div class="container">
         <h2 class="text-center mb-5">Technologies</h2>
         <div class="row text-center" id="tech-list"></div>
