@@ -1,3 +1,7 @@
+<!-- in add recipe app check in view recipe me 1.adssf 2. , 3. nhi aa rha hai, Make the name RecipeNest  -->
+<!-- meetup app me mobile responsiveness dekhlo ss me hai  -->
+<!-- you know how to make login page, add that to your projects. -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -15,18 +19,72 @@
     <link href="./style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <!-- ===== Navbar ===== -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Raja Akash Kumar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blogs">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#technologies">Technologies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <!-- ===== Hero Section ===== -->
-    <section class="bg-black text-white text-center py-5">
+    <section id="hero" class="bg-black text-white text-center py-5">
       <div class="container py-5">
-        <h1 class="display-4 fw-bold">Hi, I'm Raja Akash Kumar</h1>
-        <p class="lead mb-4">
-          I’m a Full Stack Developer with a passion for building scalable web
+        <h1 class="display-5 fw-bold">Hi, I'm Raja Akash Kumar</h1>
+        <p class="mb-4">
+          <!-- I’m a Full Stack Developer with a passion for building scalable web
           applications and delightful user experiences. I love bringing ideas to
-          life using code.
+          life using code. -->
+          <!-- I’m a Full Stack Developer driven by a passion for turning ideas into
+          powerful, user-centric web applications. From crafting seamless
+          front-end interfaces to building robust back-end systems, I enjoy
+          creating scalable solutions that not only work flawlessly but also
+          feel great to use. -->
+          As a Full Stack Developer, I thrive at the intersection of creativity
+          and logic—transforming concepts into interactive, scalable web
+          experiences. I’m passionate about writing clean code, solving real
+          problems, and making the web a more delightful place, one app at a
+          time.
         </p>
         <div class="d-flex justify-content-center gap-3">
-          <a href="#projects" class="btn btn-outline-light">View Projects</a>
-          <a href="./file/My Resume.pdf" class="btn btn-secondary" download
+          <a
+            href="https://github.com/RajaAkashk"
+            target="_blank"
+            class="btn btn-outline-light"
+            >View Projects</a
+          >
+
+          <a href="./file/My Resume.pdf" download class="btn btn-outline-light"
             >My Resume</a
           >
         </div>
@@ -34,9 +92,9 @@
     </section>
 
     <!-- ===== Projects Section ===== -->
-    <section class="py-5">
-      <div class="container">
-        <h2 class="text-center mb-5">My Projects</h2>
+    <section id="projects" class="py-5 mb-4">
+      <div class="container py-3">
+        <h2 class="text-center mb-5 mt-3">My Projects</h2>
         <div class="row g-4">
           <!-- Project Card -->
           <div class="col-md-4">
@@ -84,19 +142,19 @@
               <img
                 src="img/p3.png"
                 class="card-img-top"
-                alt="Recipe Organiser Screenshot"
+                alt="RecipeNest Screenshot"
               />
               <div class="card-body">
-                <h5 class="card-title">Recipe Organiser</h5>
+                <h5 class="card-title">Recipe Nest</h5>
                 <p class="card-text">
                   <span class="short-text">
-                    Recipe Organiser is a full-stack app to manage and browse
+                    Recipe Nest is a full-stack app to manage and browse
                     recipes.
                   </span>
                   <span class="more-text" style="display: none">
-                    Users can fetch recipes from the backend, search by
-                    keywords, view full recipe details by clicking "Read More"
-                    button, and delete recipes using a dedicated button.
+                    Users can add recipe, fetch recipes from the backend, search
+                    by keywords, view full recipe details by clicking "Read
+                    More" button, and delete recipes using a dedicated button.
                   </span>
                   <button class="btn btn-link p-0 toggle-btn">Read more</button>
                 </p>
@@ -169,11 +227,11 @@
                 alt="Meetup App Screenshot"
               />
               <div class="card-body">
-                <h5 class="card-title">Meetup App</h5>
+                <h5 class="card-title">Meetup</h5>
                 <p class="card-text">
                   <span class="short-text">
-                    Meetup App is a React-based platform for browsing and
-                    managing events.
+                    Meetup is a React-based platform for browsing and managing
+                    events.
                   </span>
                   <span class="more-text" style="display: none">
                     It allows users to view event listings, search and filter by
@@ -189,7 +247,7 @@
 
                 <div class="d-flex justify-content-between">
                   <a
-                    href="https://e-commerce-app-frontend-liard.vercel.app/"
+                    href="https://meet-up-app-frontend.vercel.app/"
                     target="_blank"
                     class="btn btn-secondary"
                     >View Demo</a
@@ -209,9 +267,9 @@
     </section>
 
     <!-- ===== Blog Section ===== -->
-    <section class="py-5 bg-light">
-      <div class="container">
-        <h2 class="text-center mb-5">My Blogs</h2>
+    <section id="blogs" class="py-5 bg-light">
+      <div class="container pb-4">
+        <h2 class="text-center mt-4 pb-4">My Blogs</h2>
         <div class="row justify-content-center g-4">
           <div class="col-md-5">
             <div class="card h-100">
@@ -256,23 +314,23 @@
     </section>
 
     <!-- ===== Technologies Section ===== -->
-    <section class="py-5">
-      <div class="container">
+    <section id="technologies" class="pt-5">
+      <div class="container pt-4">
         <h2 class="text-center mb-5">Technologies</h2>
         <div class="row text-center" id="tech-list"></div>
       </div>
     </section>
 
     <!-- ===== Contact Section ===== -->
-    <section class="pb-5">
+    <section id="contact" class="pb-5 pt-4">
       <div class="container pb-5 pt-4">
         <h2 class="text-center mb-5">Contact</h2>
         <div class="row justify-content-center g-4">
           <div class="col-sm-6 col-md-4">
             <div class="card contact-card">
-              <div class="card-body">
+              <div class="card-body p-2">
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/RajaAkashk"
                   target="_blank"
                   class="card-title fs-5 fw-medium card-link"
                 >
@@ -283,7 +341,7 @@
           </div>
           <div class="col-sm-6 col-md-4">
             <div class="card contact-card">
-              <div class="card-body">
+              <div class="card-body p-2">
                 <a
                   href="https://www.linkedin.com/in/raja-akash-kumar-81a37a2a2/"
                   target="_blank"
@@ -296,7 +354,7 @@
           </div>
           <div class="col-sm-6 col-md-4">
             <div class="card contact-card">
-              <div class="card-body">
+              <div class="card-body p-2">
                 <a
                   href="./file/My Resume.pdf"
                   download="./file/My Resume.pdf"
@@ -312,8 +370,8 @@
     </section>
 
     <!-- ===== Footer ===== -->
-    <footer class="py-2 text-center bg-black text-white">
-      <p class="mt-2">&copy; 2025 Raja Akash Kumar. All rights reserved.</p>
+    <footer class="py-3 text-center bg-black text-white">
+      <p class="m-0">&copy; 2025 Raja Akash Kumar. All rights reserved.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
