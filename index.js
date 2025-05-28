@@ -35,7 +35,7 @@ technologies.forEach((group) => {
     let li = document.createElement("li");
     li.classList.add(
       // "fw-semibold",
-      "rounded-pill",
+      "rounded-3",
       "gap-x-4",
       // "d-inline-block",
       "px-3",
